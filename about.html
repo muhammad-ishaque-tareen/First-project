@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Weather Cast</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        body {
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        nav {
+            padding: 10px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        
+        .logo h1 {
+            font-size: 25px;
+            background-color: #000000;
+            background-clip: text;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            padding: 6px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            background-color: #06a9e1;
+            color: white;
+        }
+        
+        .about-page {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .about-section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .about-section h2 {
+            color: #06a9e1;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .team-member {
+            text-align: center;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+        
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+        
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        footer a {
+            color: #06a9e1;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/weather02-512.webp" alt="logo" />
+            <h1>Weather Cast</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#features">Features</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="about.html">About US</a>
+
+            <a href="signup.html">Signup</a>
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <div class="about-page">
+        <div class="about-section">
+            <h2>Our Story</h2>
+            <p>Founded in 2025, Weather Cast is the product of a Web Technology project by two passionate BSIT 5th-semester students. What started as an academic endeavor has grown into a vision to make accurate and accessible weather information available
+                to everyone.</p><br>
+            <p>Our journey began when we combined our skills in web development and a shared passion for innovation to create a reliable and user-friendly weather forecasting platform. We are committed to pushing the boundaries of weather technology while
+                staying true to our goal of providing accuracy and accessibility.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>Our Mission</h2>
+            <p>At Weather Cast, To deliver accurate, reliable, and user-friendly weather information using modern web technologies, making forecasting simple and accessible for everyone.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>Our Technology</h2>
+            <p>We leverage modern tools and APIs to build a reliable and efficient weather platform:</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li><b>Weatherstack API:</b> Provides accurate and real-time weather data for forecasting.</li>
+                <li><b>HTML5 & CSS3:</b> Ensures a responsive and visually appealing user interface.</li>
+                <li><b>JavaScript:</b> Powers dynamic content and interactive features for better user experience.</li>
+                <li><b>Servlets:</b> Handles server-side processing and integrates data efficiently. </li>
+            </ul>
+        </div>
+
+        <div class="about-section">
+            <h2>Our Team</h2>
+            <p>Behind Weather Cast is a dedicated team of meteorologists, developers, and weather enthusiasts who work tirelessly to bring you the most accurate weather information possible.</p>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="img/tayyab-dp.jpg" alt="M.Tayyab ">
+                    <h3>M.Tayyab Saleem</h3>
+                    <p>Web Developer</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/ishaque-dp.jpg" alt=".Ishaque">
+                    <h3>M.Ishaque</h3>
+                    <p>Web Developer</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Weather Cast. All rights reserved. | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+
+</html>

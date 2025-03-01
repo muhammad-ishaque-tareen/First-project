@@ -1,0 +1,64 @@
+<web-app >
+
+    <!-- Servlet Configuration -->
+    <servlet>
+        <servlet-name>SignupServlet</servlet-name>
+        <servlet-class>SignupServlet</servlet-class>
+    </servlet>
+
+    <!-- Servlet Mapping -->
+    <servlet-mapping>
+        <servlet-name>SignupServlet</servlet-name>
+        <url-pattern>/SignupServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+
+ <servlet>
+        <servlet-name>WeatherServlet</servlet-name>
+        <servlet-class>WeatherServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>WeatherServlet</servlet-name>
+        <url-pattern>/WeatherServlet</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>SessionCheckServlet</servlet-name>
+    <servlet-class>SessionCheckServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SessionCheckServlet</servlet-name>
+    <url-pattern>/SessionCheckServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>PasswordUpdateServlet</servlet-name>
+    <servlet-class>PasswordUpdateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PasswordUpdateServlet</servlet-name>
+    <url-pattern>/PasswordUpdateServlet</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
